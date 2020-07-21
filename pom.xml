@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>nl.basjes.example</groupId>
+    <artifactId>import-demo</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>0: Import BOM demo</name>
+
+    <modules>
+        <module>base-bom</module>
+        <module>base</module>
+        <module>core-bom</module>
+        <module>core</module>
+        <module>extended-bom</module>
+        <module>extended</module>
+        <module>test-user</module>
+    </modules>
+
+</project>
