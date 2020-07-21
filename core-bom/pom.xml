@@ -16,16 +16,25 @@
         <dependencies>
             <dependency>
                 <groupId>nl.basjes.example</groupId>
+                <artifactId>base-bom</artifactId>
+                <version>1.0.0</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>nl.basjes.example</groupId>
                 <artifactId>core</artifactId>
                 <version>1.0.0</version>
             </dependency>
-
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-api</artifactId>
-                <version>1.7.30</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>nl.basjes.example</groupId>
+            <artifactId>base-bom</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 </project>
